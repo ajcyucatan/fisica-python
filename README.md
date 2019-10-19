@@ -8,3 +8,7 @@ Created by Aarón Hernández and Paola Pérez 2019 All content contained in this
 
 ## Descripción
 En este taller, utilizaremos [Python](https://www.python.org/) para analizar datos, simular y graficar la función de un tiro parabólico. Estudiaremos y entenderemos el fundamento de la mecánica clásica desde los ojos de las ecuaciones diferenciales.
+
+### Material
+* [Diapositivas](https://github.com/ajcyucatan/fisica-python/blob/master/slides.pdf)
+* [IPython Notebook](https://github.com/ajcyucatan/fisica-python/blob/master/fisica-computacional.ipynb)
