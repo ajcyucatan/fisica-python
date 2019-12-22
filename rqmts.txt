@@ -1,0 +1,7 @@
+jupyterlab
+unidecode
+math
+numpy
+scipy
+pandas
+matplotlib
