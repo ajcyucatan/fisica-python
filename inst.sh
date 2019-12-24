@@ -36,7 +36,7 @@ if [ $(program_is_installed conda) == 1 ]; then
 	conda info --envs
 	while true
 	do
-		read -r -p "Create a new python-env? [y/n]" input
+		read -r -p "Create a new python-env? [y/n]: " input
 		case $input in
 			[yY][eE][sS]|[yY])
 				echo "yes"
@@ -59,7 +59,7 @@ if [ $(program_is_installed conda) == 1 ]; then
 else
 	while true
 	do
-		read -r -p "Install conda? [y/n]" input
+		read -r -p "Install conda? [y/n]: " input
 		case $input in
 			[yY][eE][sS]|[yY])
 				echo "yes"
@@ -78,7 +78,7 @@ else
 				# Instalar bash,echo $PATH
 				while true
 				do
-					read -r -p "Create a new python-env? [y/n]" input
+					read -r -p "Create a new python-env? [y/n]: " input
 					case $input in
 						[yY][eE][sS]|[yY])
 							echo "yes"
@@ -107,7 +107,7 @@ else
 					pip -V
 					while true
 					do
-						read -r -p "Create a new python-env? [y/n]" input
+						read -r -p "Create a new python-env? [y/n]: " input
 						case $input in
 							[yY][eE][sS]|[yY])
 								echo "yes"
@@ -136,7 +136,7 @@ else
 					-V
 					while true
 					do
-						read -r -p "Create a new python-env? [y/n]" input
+						read -r -p "Create a new python-env? [y/n]: " input
 						case $input in
 							[yY][eE][sS]|[yY])
 								echo "yes"
@@ -168,4 +168,4 @@ else
 	done
 fi
 
-printf "\033[0;32mDone, you are ready to go!\033[0m\n"
+printf "\033[1;33mDone, you are ready to go!\033[0m\n"
