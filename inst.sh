@@ -45,10 +45,12 @@ if [ $(program_is_installed conda) == 1 ]; then
 				conda env create -f `find / -name env.yml` python=3.7
 				conda info --envs
 				conda activate `cat $(find / -name env.yml) | shyaml get-value name`
+				break
 				;;
 			[nN][oO]|[nN])
 				echo "no"
 				cat `find / -name rqmts.txt` | xargs -n 1 conda install
+				break
 				;;
 			*)
 				echo "Invalid input, try again..."
@@ -85,11 +87,13 @@ else
 							conda env create -f `find / -name env.yml` python=3.7
 							conda info --envs
 							conda activate `cat $(find / -name env.yml) | shyaml get-value name`
+							break 2
 							;;
 						[nN][oO]|[nN])
 							echo "no"
 							find / -name rqmts.txt -exec cat '{}' ';'
 							cat `find / -name rqmts.txt` | xargs -n 1 conda install
+							break 2
 							;;
 						*)
 							echo "Invalid input, try again..."
@@ -114,11 +118,13 @@ else
 								venv `cat $(find / -name env.yml) | shyaml get-value name`
 								lsvirtualenv
 								source `cat $(find / -name env.yml) | shyaml get-value name`/bin/activate
+								break 2;
 								;;
 							[nN][oO]|[nN])
 								echo "no"
 								find / -name rqmts.txt -exec cat '{}' ';'
 								cat `find / -name rqmts.txt` | xargs -n 1 pip install
+								break 2;
 								;;
 							*)
 								echo "Invalid input, try again..."
@@ -142,11 +148,13 @@ else
 								venv `cat $(find / -name env.yml) | shyaml get-value name`
 								lsvirtualenv
 								source `cat $(find / -name env.yml) | shyaml get-value name`/bin/activate
+								break 2
 								;;
 							[nN][oO]|[nN])
 								echo "no"
 								find / -name rqmts.txt -exec cat '{}' ';'
 								cat `find / -name rqmts.txt` | xargs -n 1 pip install
+								break 2
 								;;
 							*)
 								echo "Invalid input, try again..."
