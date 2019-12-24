@@ -167,40 +167,5 @@ else
 		esac
 	done
 fi
-: '
-# Miniconda path input >> ~/.bashrc
-cwd=$(pwd)
-export PATH=$cwd/miniconda3/bin:$PATH >> ~/.bashrc
-source ~/.bashrc
-#bash /anaconda/install.sh -y
 
-while read requirement; do conda install --yes $requirement || pip install $requirement; done < rqmts.txt
-
-conda init
-config --set auto_activate_base True
-
-#conda env export > env.yml
-
-#actualizar pip
-#pip --version
-pip install -r rqmts.txt
-
-conda_bin="$miniconda_path/conda-bin"
-echo "Installing dev-env for $miniconda_path..."
-mkdir "$conda_bin"
-
-ln -s "$miniconda_path/bin/conda" "$conda_bin/conda"
-ln -s "$miniconda_path/bin/activate" "$conda_bin/activate"
-ln -s "$miniconda_path/bin/deactivate" "$conda_bin/deactivate"
-
-echo " " >> ~/.bashrc
-echo "# conda bin" >> ~/.bashrc
-echo export PATH=\"$conda_bin:\$PATH\" >> ~/.bashrc
-
-echo "# conda env" >> ~/.bash_aliases
-echo "alias activate='source activate'" >> ~/.bash_aliases
-echo "alias deactivate='source deactivate; export PATH=\$(conda ..deactivate)'" >> ~/.bash_aliases
-#source ~/.bashrc
-#source ~/.bash_aliases
-'
 printf "\033[0;32mDone, you are ready to go!\033[0m\n"
