@@ -20,7 +20,7 @@ source ~/.bashrc
 
 while true
 	do
-		read -r -p "Create a new dedicated dev-env? [Y/n]" input
+		read -r -p "Create a new dedicated dev-env? [y/n]" input
 		case $input in
 			[yY][eE][sS]|[yY])
 				conda env create -f env.yml python=3.7
