@@ -1,5 +1,4 @@
 #!/bin/bash
-
 pwd
 echo "Installing dependencies for Conda..."
 sudo apt-get update -y
