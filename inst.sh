@@ -168,4 +168,5 @@ else
 	done
 fi
 
-printf "\033[1;33mDone, you are ready to go!\033[0m\n"
+printf "\033[0;32mDone!\033[0m\n"
+printf "You are ready to go!\n"
