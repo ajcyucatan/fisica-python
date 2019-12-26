@@ -36,7 +36,7 @@ if [ $(program_is_installed conda) == 1 ]; then
 	conda info --envs
 	while true
 	do
-		read -r -p "Create a new python-env? [y/n]: " input
+		read -r -p "Create a new Python-Env? [y/n]: " input
 		case $input in
 			[yY][eE][sS]|[yY])
 				echo "yes"
@@ -49,7 +49,7 @@ if [ $(program_is_installed conda) == 1 ]; then
 				;;
 			[nN][oO]|[nN])
 				echo "no"
-				cat `find / -name rqmts.txt` | xargs -n 1 conda install
+				cat `find / -name requirements.txt` | xargs -n 1 conda install
 				break
 				;;
 			*)
@@ -59,26 +59,27 @@ if [ $(program_is_installed conda) == 1 ]; then
 else
 	while true
 	do
-		read -r -p "Install conda? [y/n]: " input
+		read -r -p "Install Conda? [y/n]: " input
 		case $input in
 			[yY][eE][sS]|[yY])
 				echo "yes"
 				cd ~; ls
-				echo "Installing dependencies for conda..."
+				echo "Installing dependencies for Conda..."
 				sudo apt-get update -y
 				sudo apt-get install build-essential libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 -y
 				sudo apt-get install wget -y
-				echo "Now we are going to install conda..."
+				echo "Now we are going to install Conda..."
 				MACHINE_TYPE=`uname -m`
 				if [ ${MACHINE_TYPE} == 'x86_64' ]; then
-					FILE=`mktemp`; sudo wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -q0 $FILE && bash $FILE; rm $FILE
+					FILE=`mktemp`; sudo wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
 				else
-					FILE=`mktemp`; sudo wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh -q0 $FILE && bash $FILE; rm $FILE
+					FILE=`mktemp`; sudo wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86.sh -O ~/miniconda.sh
 				fi
-				# Instalar bash,echo $PATH
+				bash ~/miniconda.sh -b -p ~/miniconda
+				export PATH=~/miniconda/bin:$PATH
 				while true
 				do
-					read -r -p "Create a new python-env? [y/n]: " input
+					read -r -p "Create a new Python-Env? [y/n]: " input
 					case $input in
 						[yY][eE][sS]|[yY])
 							echo "yes"
@@ -91,8 +92,8 @@ else
 							;;
 						[nN][oO]|[nN])
 							echo "no"
-							find / -name rqmts.txt -exec cat '{}' ';'
-							cat `find / -name rqmts.txt` | xargs -n 1 conda install
+							find / -name requirements.txt -exec cat '{}' ';'
+							cat `find / -name requirements.txt` | xargs -n 1 conda install
 							break 2
 							;;
 						*)
@@ -107,11 +108,11 @@ else
 					pip -V
 					while true
 					do
-						read -r -p "Create a new python-env? [y/n]: " input
+						read -r -p "Create a new Python-Env? [y/n]: " input
 						case $input in
 							[yY][eE][sS]|[yY])
 								echo "yes"
-								pip install virtualenv
+								sudo pip install --upgrade virtualenv
 								virtualenv --version
 								pip install shyaml
 								pwd; ls
@@ -122,8 +123,8 @@ else
 								;;
 							[nN][oO]|[nN])
 								echo "no"
-								find / -name rqmts.txt -exec cat '{}' ';'
-								cat `find / -name rqmts.txt` | xargs -n 1 pip install
+								find / -name requirements.txt -exec cat '{}' ';'
+								cat `find / -name requirements.txt` | xargs -n 1 pip install
 								break 2;
 								;;
 							*)
@@ -131,16 +132,19 @@ else
 						esac
 					done
 				else
-					# Install pip
+					sudo apt-get python-dev build-essential -y
+					sudo apt-get update && sudo apt-get install python-pip -y
+					sudo pip install --upgrade pip
+					sudo pip install --upgrade virtualenv
+					printf "Pip installed!"
 					which pip
-					-V
+					pip -V
 					while true
 					do
-						read -r -p "Create a new python-env? [y/n]: " input
+						read -r -p "Create a new Python-Env? [y/n]: " input
 						case $input in
 							[yY][eE][sS]|[yY])
 								echo "yes"
-								pip install virtualenv
 								virtualenv --version
 								pip install shyaml
 								pwd; ls
@@ -152,8 +156,8 @@ else
 								;;
 							[nN][oO]|[nN])
 								echo "no"
-								find / -name rqmts.txt -exec cat '{}' ';'
-								cat `find / -name rqmts.txt` | xargs -n 1 pip install
+								find / -name requirements.txt -exec cat '{}' ';'
+								cat `find / -name requirements.txt` | xargs -n 1 pip install
 								break 2
 								;;
 							*)
