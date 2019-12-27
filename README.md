@@ -35,7 +35,6 @@ $ conda activate grn
 
 # to deactivate env
 $ conda deactivate
-
 ```
 
 
