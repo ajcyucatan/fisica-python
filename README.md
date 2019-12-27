@@ -9,17 +9,38 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar dat
 
 
 ## Gist
+
+Run this workshop on the cloud. 
+You can run the tutorial in the Google Colab servers by clicking the badge above. 
+You can also run the tutorial in binder by clicking the link above.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
+
+### Run the tutorial locally
+
+The library requirements can be installed by executing the following command using
+[`pip`](pypi.org/project/pip) in the command line:
+
+``` pip install -r requirements.txt ```
+
+Alternatively you can also install the libraries by creating a conda environment.
+To do this, run the following command: 
+
+```
+# to create environment
+$ conda env create -f grn.yml python=3.7
+
+# to activate environment
+$ conda activate grn
+
+# to deactivate env
+$ conda deactivate
+
+```
+
 
 ## Ascription
 
 Created by Aarón Hernández and Paola Pérez, 2019. All content contained in this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0 "CC BY-NC-SA 4.0"). The code is free and open source, released under [The MIT License](https://mit-license.org "The MIT License").
 
 [![CC](http://forthebadge.com/images/badges/cc-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0 "CC BY-NC-SA 4.0")
-
-### Material
-[![Open](https://img.shields.io/badge/Open-Colab-orange?style=for-the-badge&logo=appveyor)](https://colab.research.google.com/drive/1mIZcrkFuT71XTK0ehaaH01ceYEnAWXbw)
-
-* [Diapositivas](https://github.com/ajcyucatan/fisica-python/blob/master/slides.pdf)
-* [IPython Notebook](https://github.com/ajcyucatan/fisica-python/blob/master/fisica-computacional.ipynb)
