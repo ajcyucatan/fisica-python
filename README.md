@@ -1,11 +1,11 @@
 # Física Computacional con Python
-[![GitHub license](https://img.shields.io/github/license/jaflonu/ssm2019?style=popout-square)](https://github.com/jaflonu/ssm2019/blob/master/LICENSE)
-[![GitHub repo size](https://img.shields.io/github/repo-size/jaflonu/ssm2019?style=popout-square)](https://github.com/jaflonu/ssm2019.git)
-[![GitHub last commit](https://img.shields.io/github/last-commit/jaflonu/ssm2019?style=popout-square)](https://github.com/jaflonu/ssm2019/commits/master)
-[![GitHub issues](https://img.shields.io/github/issues/jaflonu/ssm2019?style=popout-square)](https://github.com/jaflonu/ssm2019/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/jaflonu/ssm2019?style=popout-square)](https://github.com/jaflonu/ssm2019/pull)
+[![GitHub license](https://img.shields.io/github/license/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/LICENSE)
+[![GitHub repo size](https://img.shields.io/github/repo-size/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python.git)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/pull)
 
-En este taller, utilizaremos [Python](https://www.python.org/) para analizar datos, simular y graficar la función de un tiro parabólico, ¡entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales! ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
+En este taller, utilizaremos [Python](https://www.python.org/) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
 
 ## Gist
