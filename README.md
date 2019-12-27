@@ -10,14 +10,14 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar, mo
 
 ## Gist
 
+### Running it on the Cloud
 Run this workshop on the cloud. 
 You can run the tutorial in the Google Colab servers by clicking the badge above. 
 You can also run the tutorial in binder by clicking the link above.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 
-### Run the tutorial locally
-
+### Running it Locally
 The library requirements can be installed by executing the following command using
 [`pip`](pypi.org/project/pip) in the command line:
 
