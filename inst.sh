@@ -25,7 +25,7 @@ function echo_if {
 }
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-	if [ (`lsb_release -i | cut -f 2-` == "Debian") -o (`lsb_release -i | cut -f 2-` == "MX") -o (`lsb_release -i | cut -f 2-` == "Ubuntu") ]; then
+	if [ "`lsb_release -i | cut -f 2-`" == "Debian" -o "Ubuntu" -o "MX" -o "LinuxMint" -o "Raspbian" -o "Deepin" -o "antiX" -o "Tails" ]; then
 		pwd
 		which python
 		echo "python version: `python -V`"
