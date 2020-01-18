@@ -23,11 +23,11 @@ Then, just run the the first cell executing the `install.sh` script to set every
 #### Locally
 For UNIX-like systems, the library requeriments can be installed by three ways:
 
-  1. Running `install.sh` and let the magic work for you.
-  2. Using [`pip`](pypi.org/project/pip) by executing the following command:
-  ``` pip install -r requirements.txt ```
-  3. Using `conda` by creating a Python environment with the following commands:
-  ``` conda env create -f env.yml python=3.7 ```
+1. Running `install.sh` and let the magic work for you.
+2. Using [`pip`](pypi.org/project/pip) by executing the following command:
+``` pip install -r requirements.txt ```
+3. Using `conda` by creating a Python environment with the following commands:
+``` conda env create -f env.yml python=3.7 ```
 
 
 ## Ascription
