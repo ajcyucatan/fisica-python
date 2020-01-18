@@ -12,13 +12,13 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar, mo
 You can run the workshop on the cloud or locally.
 
 #### On the Cloud
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
+* [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 Click this badge to run it through Google Colaboratory servers.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
-Click this badge to run it with Binder.
+* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
+Alternatively, click this badge to run it with Binder.
 
-Once you have opened the first Notebook, just execute the `install.sh` script to set everything up out-of-the-box!
+Then, just run the the first cell executing the `install.sh` script to set everything up out-of-the-box!
 
 #### Locally
 For UNIX-like systems, the library requeriments can be installed by three ways:
