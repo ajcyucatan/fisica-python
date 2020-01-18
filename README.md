@@ -12,31 +12,22 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar, mo
 You can run the workshop on the cloud or locally.
 
 #### On the Cloud
-Run it through Google Colab servers by clicking the following badge:
+Run it through Google Colaboratory servers by clicking the following badge
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 
-You can also run it through Binder, by clicking this badge:
+Alternatively, run it with Binder by clicking this badge
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
 
+Once you have opened the first Notebook, just execute the `install.sh` script to set everything up out-of-the-box!
+
 #### Locally
-The library requirements can be installed by executing the following command using
-[`pip`](pypi.org/project/pip) in the command line:
+For UNIX-like systems, the library requeriments can be installed by three ways:
 
-``` pip install -r requirements.txt ```
-
-Alternatively you can also install the libraries by creating a conda environment.
-To do this, run the following command: 
-
-```
-# to create environment
-$ conda env create -f grn.yml python=3.7
-
-# to activate environment
-$ conda activate grn
-
-# to deactivate env
-$ conda deactivate
-```
+  1. Running `install.sh` and let the magic work for you.
+  2. Using [`pip`](pypi.org/project/pip) by executing the following command:
+  ``` pip install -r requirements.txt ```
+  3. Using `conda` by creating a Python environment with the following commands:
+  ``` conda env create -f env.yml python=3.7 ```
 
 
 ## Ascription
