@@ -16,6 +16,10 @@ You can run the workshop on the cloud or locally:
 
 #### On the Cloud
 
+| Tables        | Are           |
+| ------------- |:-------------:|
+| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)      | Click this badge to run it through Google Colaboratory servers |
+
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 Click this badge to run it through Google Colaboratory servers.
 
