@@ -12,11 +12,11 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar, mo
 You can run the workshop on the cloud or locally.
 
 #### On the Cloud
-Run it through Google Colaboratory servers by clicking the following badge
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
+Click this badge to run it through Google Colaboratory servers.
 
-Alternatively, run it with Binder by clicking this badge
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
+Click this badge to run it with Binder.
 
 Once you have opened the first Notebook, just execute the `install.sh` script to set everything up out-of-the-box!
 
