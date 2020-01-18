@@ -31,8 +31,11 @@ For UNIX-like systems, the library requeriments can be installed by three ways:
 
 * Running `install.sh` and let the magic work for you.
 * Using [`pip`](pypi.org/project/pip) by executing the following command:
+
 ``` pip install -r requirements.txt ```
+
 * Using `conda` by creating a Python environment with the following commands:
+
 ``` conda env create -f env.yml python=3.7 ```
 
 
