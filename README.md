@@ -8,16 +8,17 @@
 En este taller, utilizaremos [Python](https://www.python.org/) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
 
-## Gist
+### Arrange
+You can run the workshop on the cloud or locally.
 
-### Running it on the Cloud
-Run this workshop on the cloud. 
-You can run the tutorial in the Google Colab servers by clicking the badge above. 
-You can also run the tutorial in binder by clicking the link above.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
+#### On the Cloud
+Run it through Google Colab servers by clicking the following badge:
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 
-### Running it Locally
+You can also run it through Binder, by clicking this badge:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
+
+#### Locally
 The library requirements can be installed by executing the following command using
 [`pip`](pypi.org/project/pip) in the command line:
 
