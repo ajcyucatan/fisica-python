@@ -16,7 +16,7 @@ You can run the workshop on the cloud or locally:
 
 #### On the Cloud
 
-| Tables        | Are           |
+| Option        | Advice        |
 | ------------- |:-------------:|
 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)      | Click this badge to run it through Google Colaboratory servers |
 
@@ -32,6 +32,9 @@ Then, just run the the first cell that executes `install.sh` to set everything u
 #### Locally
 
 For UNIX-like systems, the library requeriments can be installed by three ways:
+
+| Tool          | Command       |
+| ------------- |:-------------:|
 
 * Running `install.sh` and let the magic work for you.
 * Using [`pip`](pypi.org/project/pip) by executing the following command:
