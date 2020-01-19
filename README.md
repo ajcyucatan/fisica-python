@@ -16,12 +16,10 @@ You can run the workshop on the cloud or locally:
 
 #### On the Cloud
 
-| Options        | So, what?        |
+| Options       | So, what?     |
 | ------------- |:-------------:|
-| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) |
-Click this badge to run it through Google Colaboratory servers |
-| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) |
-Alternatively, click this badge to run it with Binder. |
+| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to run it through Google Colaboratory servers |
+| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternatively, click this badge to run it with Binder. |
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
 Click this badge to run it through Google Colaboratory servers.
