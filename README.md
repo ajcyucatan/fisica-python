@@ -16,16 +16,10 @@ You can run the workshop on the cloud or locally:
 
 #### On the Cloud
 
-| Options       | So, what?     |
+| Tool          | So, what?     |
 | ------------- |:-------------:|
-| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to run it through Google Colaboratory servers |
-| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternatively, click this badge to run it with Binder. |
-
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python)
-Click this badge to run it through Google Colaboratory servers.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master)
-Alternatively, click this badge to run it with Binder.
+| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to open it through Google Colaboratory servers |
+| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternatively, click this badge to open it with Binder. |
 
 Then, just run the the first cell that executes `install.sh` to set everything up out-of-the-box!
 
@@ -34,17 +28,11 @@ Then, just run the the first cell that executes `install.sh` to set everything u
 
 For UNIX-like systems, the library requeriments can be installed by three ways:
 
-| Tool          | Command       |
+| Options       | Command       |
 | ------------- |:-------------:|
-
-* Running `install.sh` and let the magic work for you.
-* Using [`pip`](pypi.org/project/pip) by executing the following command:
-
-``` pip install -r requirements.txt ```
-
-* Using `conda` by creating a Python environment with the following commands:
-
-``` conda env create -f env.yml python=3.7 ```
+| Running `install.sh` and let the magic work for you. | `bash install.sh` |
+| Using [`pip`](https://pypi.org/project/pip) | `pip install -r requirements.txt` |
+| Using [`conda`](https://docs.conda.io/en/latest/) | `conda env create -f env.yml python=3.7` |
 
 
 ### Ascription
