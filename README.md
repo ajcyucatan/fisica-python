@@ -16,9 +16,9 @@ You can run the workshop on the cloud or locally:
 
 #### On the Cloud
 
-| Tool          | So, what?     |
+| Tool          | Advice        |
 | ------------- |:-------------:|
-| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to open it through Google Colaboratory servers |
+| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to open it through Google Colaboratory servers. |
 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternatively, click this badge to open it with Binder. |
 
 Then, just run the the first cell that executes `install.sh` to set everything up out-of-the-box!
