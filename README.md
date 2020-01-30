@@ -9,30 +9,30 @@
 En este taller, utilizaremos [Python](https://www.python.org/) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
 
-### Arrange
+### Instalación
 
-You can run the workshop on the cloud or locally:
+Puedes ejecutar el material del taller en la nube o en tu misma computadora:
 
 
-#### On the Cloud
+#### En la nube
 
-| Tool          | Advice        |
+| Herramienta          | Instrucción        |
 | ------------- |:-------------:|
-| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Click this badge to open it through Google Colaboratory servers |
-| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternatively, click this badge to open it with Binder |
+| [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ajcyucatan/fisica-python) | Haz clic en esta insignia para abrir los archivos a través de los servidores de Google Colaborator |
+| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternativamente, haz clic en esta insignia para abrirlos con Binder |
 
-Then, just run the the first cell that executes `install.sh` to set everything up out-of-the-box!
+Después, sólo ejecuta la primera celda que tiene algún comando que llama a `install.sh` para que se configure todo automáticamente.
 
 
-#### Locally
+#### En tu computadora
 
-For UNIX-like systems, the workshop requeriments can be installed by three ways:
+Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas por tres maneras:
 
-| Options       | Command       |
+| Opciones       | Comando       |
 | ------------- |:-------------:|
-| Running `install.sh` and let the magic work for you | `bash install.sh` |
-| Using [`pip`](https://pypi.org/project/pip) | `pip install -r requirements.txt` |
-| Using [`conda`](https://docs.conda.io/en/latest/) | `conda env create -f env.yml python=3.7` |
+| Ejecuta `install.sh` y deja que la magia haga todo por ti | `bash install.sh` |
+| Usando [`pip`](https://pypi.org/project/pip) | `pip install -r requirements.txt` |
+| Usando [`conda`](https://docs.conda.io/en/latest/) | `conda env create -f env.yml python=3.7` |
 
 
 ### Ascription
