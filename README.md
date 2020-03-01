@@ -12,7 +12,6 @@ En este taller, utilizaremos [Python](https://www.python.org/) para analizar, mo
 
 Puedes ejecutar el material del taller en la nube o en tu misma computadora:
 
-
 #### En la nube
 
 | Herramienta          | Instrucción        |
@@ -21,7 +20,6 @@ Puedes ejecutar el material del taller en la nube o en tu misma computadora:
 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master) | Alternativamente, haz clic en esta insignia para abrirlos con Binder |
 
 Después, sólo ejecuta la primera celda que tiene algún comando que llama a `install.sh` para que se configure todo automáticamente.
-
 
 #### En tu computadora
 
