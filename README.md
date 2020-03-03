@@ -1,9 +1,9 @@
 # Física Computacional con Python
 
-[![GitHub license](https://img.shields.io/github/license/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/commits/master)
-[![GitHub repo size](https://img.shields.io/github/repo-size/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python.git)
-[![GitHub issues](https://img.shields.io/github/issues/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/issues)
+[![License](https://img.shields.io/github/license/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/LICENSE "License")
+[![Last Commit](https://img.shields.io/github/last-commit/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/commits/master "Last Commit")
+[![Repo Size](https://img.shields.io/github/repo-size/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python.git "Repo Size")
+[![Issues](https://img.shields.io/github/issues/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/issues "Issues")
 
 En este taller, utilizaremos [Python](https://www.python.org) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
