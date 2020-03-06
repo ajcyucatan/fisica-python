@@ -30,7 +30,7 @@ Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas
 | Usando [`conda`](https://docs.conda.io/en/latest/) | `conda env create -f env.yml python=3.7` |
 
 
-## Autor
+## Autores
 > Aarón Hernández and Paola Pérez.
 
 
