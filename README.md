@@ -1,9 +1,9 @@
 # Física Computacional con Python
 
-[![License](https://img.shields.io/github/license/jaflonu/fisica-python?style=popout-square)](https://github.com/jaflonu/fisica-python/blob/master/LICENSE "License")
-[![Repo Size](https://img.shields.io/github/repo-size/jaflonu/fisica-python?style=popout-square)](https://github.com/jaflonu/fisica-python.git "Repo Size")
-[![Slideshow](https://img.shields.io/badge/view-slides-important?style=popout-square)](https://jaflonu.github.io/fisica-python "Slideshow")
-[![Binder](https://img.shields.io/badge/launch-binder-9cf?style=popout-square)](https://mybinder.org/v2/gh/jaflonu/fisica-python/master "Binder")
+[![License](https://img.shields.io/github/license/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/LICENSE "License")
+[![Repo Size](https://img.shields.io/github/repo-size/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python.git "Repo Size")
+[![Slideshow](https://img.shields.io/badge/view-slides-important?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/notes/slides.pdf "Slideshow")
+[![Binder](https://img.shields.io/badge/launch-binder-9cf?style=popout-square)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master "Binder")
 
 En este taller, utilizaremos [Python](https://www.python.org) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
