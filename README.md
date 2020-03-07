@@ -8,14 +8,13 @@
 En este taller, utilizaremos [Python](https://www.python.org) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
 
-## Preparación del Environment
+## Ambiente
 
 Puedes ejecutar el material del taller en la nube o en tu misma computadora:
 
 
 ### En la nube
 
-Después, sólo ejecuta la primera celda que tiene algún comando que llama a `install.sh` para que se configure todo automáticamente.
 ¡Haz clic en la insignia de Binder! Luego sólo corre la primera celda que ejecuta `install.sh` para que se configure todo automáticamente *out-of-the-box*.
 
 
@@ -31,7 +30,7 @@ Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas
 
 
 ## Autores
-> Aarón Hernández and Paola Pérez.
+> Aarón Hernández y Paola Pérez.
 
 
 ## Licencia
