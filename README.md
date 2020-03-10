@@ -36,6 +36,4 @@ Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas
 
 ## Licencia
 
-[![CC-BY-NC-SA](https://img.shields.io/badge/CC-BY--NC--SA-lightgrey?style=popout-square)](https://creativecommons.org/licenses/by-nc-sa/4.0 "CC BY-NC-SA 4.0")
-
 El contenido de este repositorio está publicado bajo la licencia [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0), y el código es libre y abierto, bajo los términos de [The MIT License](https://mit-license.org).
