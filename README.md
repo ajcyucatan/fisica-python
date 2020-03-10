@@ -31,7 +31,8 @@ Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas
 
 
 ## Autores
-> Aarón Hernández y Paola Pérez.
+
+Aarón Hernández y Paola Pérez.
 
 
 ## Licencia
