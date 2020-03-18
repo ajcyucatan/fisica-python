@@ -5,7 +5,7 @@
 [![Slideshow](https://img.shields.io/badge/view-slides-important?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/notes/slides.pdf "Slideshow")
 [![Binder](https://img.shields.io/badge/launch-binder-9cf?style=popout-square)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master "Binder")
 
-> Aarón Hernández y Paola Pérez © 2020
+> Aarón Hernández y Paola Pérez © 2019
 
 En este taller, utilizaremos [Python](https://www.python.org) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
@@ -26,7 +26,7 @@ Para sistemas basados en UNIX, las dependencias del taller pueden ser instaladas
 
 | Opciones       | Comando       |
 |:--------------:|:-------------:|
-| Ejecutando [`install.sh`](https://github.com/ajcyucatan/fisica-python/blob/master/install.sh) | `bash install.sh` |
+| Ejecutando `install.sh` | `bash install.sh` |
 | Usando [`pip`](https://pypi.org/project/pip) | `pip install -r requirements.txt` |
 | Usando [`conda`](https://docs.conda.io/en/latest/) | `conda env create -f env.yml python=3.7` |
 
