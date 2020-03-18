@@ -1,4 +1,6 @@
 #!/bin/bash
+# A script for Python depedencies checking
+# jaflonu - 17/Jan/2020
 
 function program_is_installed {
 	local return_=1
@@ -24,6 +26,7 @@ function echo_if {
 	fi
 }
 
+echo "Current date: $(date) @ $(hostname)"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	if [ "`lsb_release -i | cut -f 2-`" == "Debian" -o "Ubuntu" -o "MX" -o "LinuxMint" -o "Raspbian" -o "Deepin" -o "antiX" -o "Tails" ]; then
 		pwd
