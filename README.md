@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/github/license/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/LICENSE "License")
 [![Repo Size](https://img.shields.io/github/repo-size/ajcyucatan/fisica-python?style=popout-square)](https://github.com/ajcyucatan/fisica-python.git "Repo Size")
-[![Slideshow](https://img.shields.io/badge/view-slides-important?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/notes/slides.pdf "Slideshow")
-[![Binder](https://img.shields.io/badge/launch-binder-9cf?style=popout-square)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master "Binder")
+[![Slideshow](https://img.shields.io/badge/view-slides-00D88E?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/notes/slides.pdf "Slideshow")
+[![Binder](https://img.shields.io/badge/launch-binder-ff69b4?style=popout-square)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master "Binder")
 
 > © 2019, Aarón Hernández y Paola Pérez
 
