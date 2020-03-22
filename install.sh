@@ -1,9 +1,6 @@
 #!/bin/bash
-# Script for Python Depedencies Checking
-# Jorge A. Flores <jorge.nunez@cimat.mx>
-# 17/Jan/2020
 
-## AUXILIAR FUNCTIONS ##
+# Auxiliar functions
 function program_is_installed {
 	local return_=1
 	type $1 >/dev/null 2>&1 || { local return_=0; }
@@ -28,7 +25,7 @@ function echo_if {
 	fi
 }
 
-## CASE CHECKING ##
+# Verifying installations
 echo "Current date: $(date) @ $(hostname)"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
 	if [ "`lsb_release -i | cut -f 2-`" == "Debian" -o "Ubuntu" -o "MX" -o "LinuxMint" -o "Raspbian" -o "Deepin" -o "antiX" -o "Tails" ]; then
