@@ -5,7 +5,7 @@
 [![Slideshow](https://img.shields.io/badge/view-slides-00d88d?style=popout-square)](https://github.com/ajcyucatan/fisica-python/blob/master/notes/slides.pdf "Slideshow")
 [![Binder](https://img.shields.io/badge/launch-binder-ff69b4?style=popout-square)](https://mybinder.org/v2/gh/ajcyucatan/fisica-python/master "Binder")
 
-> © 2019, Aarón Hernández y Paola Pérez
+> © 2019 Aarón Hernández y Paola Pérez
 
 En este taller, utilizaremos [Python](https://www.python.org) para analizar, modelar y graficar datos de un tiro parabólico, entendiendo la mecánica clásica desde los ojos de las ecuaciones diferenciales. ¿Cómo una ecuación describe los cambios de un comportamiento sobre el tiempo?
 
